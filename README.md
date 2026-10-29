@@ -34,14 +34,14 @@ or a Claude or ChatGPT plan.
 
 ## ✨ What it does
 
-- 📄 **A profile from your CV** – import your CV as PDF, Word or text, and the AI fills in your
+- 📄 **A profile from your CV** – import your CV as PDF, .docx or text, and the AI fills in your
   jobs, skills and education. Import several versions and they merge into one.
 - 🔍 **Jobs found for you** – openings for your target roles in the countries you choose, from
   free job sites, refreshed every few hours. Duplicates are merged.
 - 🎯 **An honest fit score** – every job gets a score. Open it to see what matches, what is
   missing and how to talk about the gaps.
 - ✍️ **A CV and cover letter per job** – reworded for one advert from your real experience only,
-  with a keyword check (the words hiring software looks for). Export to Word.
+  with a keyword check (the words hiring software looks for). Export to .docx.
 - 📋 **Every application on a board** – one column per stage. Drag a card to move it on.
   Follow-ups come round by themselves, and the AI drafts the chaser.
 - 🎤 **Interview practice** – type your answer and see how long it would take to say. Get scores,
@@ -58,10 +58,10 @@ or a Claude or ChatGPT plan.
 
 | Area | What is included |
 | --- | --- |
-| Profile | CV import (PDF, Word, text, up to eight versions merged), target roles, countries, places and ways of working |
-| Jobs | Adzuna, Reed, Remotive, Jobicy and Arbeitnow, plus an optional AI web search of employer and public-sector sites |
+| Profile | CV import (PDF, .docx, text, up to eight versions merged), target roles, countries, places and ways of working |
+| Jobs | Five free job-site feeds, plus an optional AI web search of employer and public-sector sites |
 | Fit | Quick score on every job; full verdict with matched requirements, gaps and how serious each is |
-| Applications | Preparing, applied, screening, interview, offer, closed; list or board; *No reply* after six weeks; drafted chasers, thank-you notes and feedback requests; reminders to Google Calendar or an `.ics` file |
+| Applications | Preparing, applied, screening, interview, offer, closed; list or board; *No reply* after six weeks; drafted chasers, thank-you notes and feedback requests; reminders to your calendar or an `.ics` file |
 | Contacts | Recruiters and hiring managers from public pages or added by you, each with a follow-up date and a drafted first message |
 | Interview | Mixed, competency (STAR), technical, toughest panel, and AI and change rounds; live measures of length, speaking time, filler words, "I" against "we", figures and STAR coverage; seven-part AI review |
 | Career | Assessment, career map of five to eight paths, redone monthly when the AI routine is on |
@@ -103,7 +103,7 @@ the newest release, pick the file for your device:
 
 | Your device | File to download | Works on |
 | --- | --- | --- |
-| 🐧 Linux computer | `Udyoga-<version>-linux-x64.tar.gz` | Ubuntu 24.04, Fedora, Arch and similar (Intel/AMD 64-bit) |
+| 🐧 Linux computer | `Udyoga-<version>-linux-x64.tar.gz` | Ubuntu 24.04, Fedora, Arch and similar (64-bit x86) |
 | 🪟 Windows computer | `Udyoga-<version>-windows-x64-setup.exe` | Windows 10 and 11 |
 | 🤖 Android phone | `Udyoga-<version>-android.apk` | Android 7 and newer |
 
@@ -144,7 +144,7 @@ Prefer no installer? Download `…-windows-x64-portable.zip`, unzip it anywhere 
 
 1. Open the downloaded `.apk` on your phone.
 2. If Android asks, allow installs from your browser or file manager. This is normal for apps
-   from outside the Play Store.
+   from outside an app store.
 3. Tap **Install**, then **Open**.
 
 Newer versions install over the top and keep your data. Udyoga can also update itself from
@@ -287,10 +287,7 @@ scripts/make-icons.sh                                               # app icons 
 - [http](https://pub.dev/packages/http), [file_picker](https://pub.dev/packages/file_picker),
   [archive](https://pub.dev/packages/archive), [url_launcher](https://pub.dev/packages/url_launcher),
   [intl](https://pub.dev/packages/intl)
-- Job data from [Adzuna](https://www.adzuna.com), [Reed](https://www.reed.co.uk),
-  [Remotive](https://remotive.com), [Jobicy](https://jobicy.com) and [Arbeitnow](https://www.arbeitnow.com)
-- AI by [Gemini](https://ai.google.dev), [Claude](https://www.anthropic.com/claude) or ChatGPT
-  through [Codex](https://developers.openai.com/codex/cli), with your own key or plan
+- Job data from free public job-site feeds
 - Fonts [Inter](https://rsms.me/inter/) and [Plus Jakarta Sans](https://github.com/tokotype/PlusJakartaSans),
   bundled under the SIL Open Font License
 
