@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.7 (2026-11-10)
+
+- Windows: the installer always uses its own folder. Other Brahma apps used to share its installer id, so an older install could sit in another app's folder; install this version to put it back in its own. Your data is not touched.
+
 ## 0.4.6 (2026-11-06)
 
 - The side panel on wide windows scrolls when the window is too short to show every screen, with

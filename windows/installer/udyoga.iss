@@ -16,6 +16,9 @@ AppVersion={#AppVersion}
 AppVerName=Udyoga {#AppVersion}
 AppPublisher=Rajeev Sudharamachandran
 DefaultDirName={autopf}\Udyoga
+; Up to now other Brahma apps shared this AppId, so the remembered folder can be
+; another app's. Always install into this app's own folder.
+UsePreviousAppDir=no
 DefaultGroupName=Udyoga
 DisableProgramGroupPage=yes
 OutputDir=..\..\build\installer
