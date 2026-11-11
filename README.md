@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/sudharamachandranrajeev/udyoga"><img src="branding/udyoga-512.png" alt="Udyoga" width="140"></a>
+  <a href="https://github.com/sudharamachandranrajeev/udyoga-career-manager"><img src="branding/udyoga-512.png" alt="Udyoga" width="140"></a>
   <br>
   Udyoga
   <br>
@@ -9,10 +9,10 @@
 <h4 align="center">Find jobs that fit, see honestly where you stand, tailor every application and practise for the interview.</h4>
 
 <p align="center">
-  <a href="https://github.com/sudharamachandranrajeev/udyoga/releases"><img src="https://img.shields.io/github/v/release/sudharamachandranrajeev/udyoga?include_prereleases&color=2f6bff&label=download" alt="Latest release"></a>
+  <a href="https://github.com/sudharamachandranrajeev/udyoga-career-manager/releases"><img src="https://img.shields.io/github/v/release/sudharamachandranrajeev/udyoga-career-manager?include_prereleases&color=2f6bff&label=download" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/works%20on-Linux%20%7C%20Windows%20%7C%20Android-555" alt="Works on Linux, Windows and Android">
   <img src="https://img.shields.io/badge/your%20data-encrypted-2e7d32" alt="Your data is encrypted">
-  <a href="https://github.com/sudharamachandranrajeev/brahma"><img src="https://img.shields.io/badge/part%20of-Brahma-8a5cf6" alt="Part of Brahma"></a>
+  <a href="https://github.com/sudharamachandranrajeev/brahma-life-suite"><img src="https://img.shields.io/badge/part%20of-Brahma-8a5cf6" alt="Part of Brahma"></a>
 </p>
 
 <p align="center">
@@ -98,7 +98,7 @@ or a Claude or ChatGPT plan.
 
 ### Step 1 – Download
 
-Open the [releases page](https://github.com/sudharamachandranrajeev/udyoga/releases) and, under
+Open the [releases page](https://github.com/sudharamachandranrajeev/udyoga-career-manager/releases) and, under
 the newest release, pick the file for your device:
 
 | Your device | File to download | Works on |
@@ -177,7 +177,7 @@ Udyoga never sees your login. Its permission lasts 24 hours, and it asks to rene
 ### Step 5 (optional) – Use it on more than one device
 
 1. Set up a free sync server, at home or on Cloudflare. The
-   [Brahma sync server guide](https://github.com/sudharamachandranrajeev/brahma/tree/main/server)
+   [Brahma sync server guide](https://github.com/sudharamachandranrajeev/brahma-life-suite/tree/main/server)
    walks you through it.
 2. In Udyoga, choose **Sync across my devices** (at first launch, or in **Settings → Sync**).
 3. **Write down the recovery key** it shows and keep it somewhere safe, away from the device.
@@ -257,7 +257,7 @@ the data file you download yourself. Why it works this way: [docs/n8n](docs/n8n/
 You need [Git](https://git-scm.com) and [Flutter](https://flutter.dev) 3.47.
 
 ```bash
-git clone https://github.com/sudharamachandranrajeev/udyoga
+git clone https://github.com/sudharamachandranrajeev/udyoga-career-manager
 cd udyoga
 flutter pub get
 flutter run -d linux        # or windows, or an Android device
@@ -267,7 +267,7 @@ UDYOGA_SHOTS=/tmp/shots flutter test test/screenshots_test.dart     # render the
 scripts/make-icons.sh                                               # app icons from branding/udyoga.svg
 ```
 
-- `brahma_core` comes from the [brahma](https://github.com/sudharamachandranrajeev/brahma) repo.
+- `brahma_core` comes from the [brahma](https://github.com/sudharamachandranrajeev/brahma-life-suite) repo.
   To work on both at once, add a `pubspec_overrides.yaml` (ignored by git) with
   `dependency_overrides: brahma_core: path: ../brahma/core`.
 - Tests use made-up people and companies only. CI runs analyse and test on each push. A `v*` tag
@@ -299,11 +299,11 @@ Udyoga is one app in the **Brahma** family. They share one sign-in and one sync 
 
 | App | What it does |
 | --- | --- |
-| [brahma](https://github.com/sudharamachandranrajeev/brahma) | The shared core and the all-in-one app |
-| [artha](https://github.com/sudharamachandranrajeev/artha) | Money: accounts, spending, bills and investments |
-| [graha-anveshana](https://github.com/sudharamachandranrajeev/graha-anveshana) | Find a home to rent or buy |
-| [vahana-anveshana](https://github.com/sudharamachandranrajeev/vahana-anveshana) | Find a car |
-| [vidya](https://github.com/sudharamachandranrajeev/vidya) | Learning, flashcards and focus |
+| [brahma](https://github.com/sudharamachandranrajeev/brahma-life-suite) | The shared core and the all-in-one app |
+| [artha](https://github.com/sudharamachandranrajeev/artha-personal-finance) | Money: accounts, spending, bills and investments |
+| [graha-anveshana](https://github.com/sudharamachandranrajeev/graha-anveshana-property-search) | Find a home to rent or buy |
+| [vahana-anveshana](https://github.com/sudharamachandranrajeev/vahana-anveshana-car-manager) | Find a car |
+| [vidya](https://github.com/sudharamachandranrajeev/vidya-learning-manager) | Learning, flashcards and focus |
 
 ## License
 

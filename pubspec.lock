@@ -63,7 +63,7 @@ packages:
       path: core
       ref: HEAD
       resolved-ref: "411ce814e18a6940bb174bce70d9776bc43e1f9d"
-      url: "https://github.com/sudharamachandranrajeev/brahma.git"
+      url: "https://github.com/sudharamachandranrajeev/brahma-life-suite.git"
     source: git
     version: "0.1.0"
   build:

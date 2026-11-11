@@ -161,7 +161,7 @@ class SettingsPage extends ConsumerWidget {
                 child: TextButton.icon(
                   onPressed: () => openLink(
                     context,
-                    'https://github.com/sudharamachandranrajeev/udyoga/blob/main/docs/n8n/README.md',
+                    'https://github.com/sudharamachandranrajeev/udyoga-career-manager/blob/main/docs/n8n/README.md',
                   ),
                   icon: const Icon(Icons.open_in_new, size: 18),
                   label: const Text('How to set it up'),
